@@ -18,12 +18,12 @@ function Post({ title, body, image }) {
   return (
     <div>
       <Toolbar />
-      <h1 className="font-semibold text-[24px] m-10 tracking-widest">
-        {title}
-      </h1>
-      {imageURL && <img className="" src={imageURL} alt="imageURL" />}
-      <div>
-        <BlockContent blocks={body} />
+      <div className="flex flex-col m-10 sm:m-auto sm:w-[500px] md:w-[700px] pt-20">
+        <h1 className="font-semibold text-[36px] tracking-widest">{title}</h1>
+        {imageURL && <img className="w-full" src={imageURL} alt="imageURL" />}
+        <div className="mt-10">
+          <BlockContent blocks={body} />
+        </div>
       </div>
     </div>
   );
