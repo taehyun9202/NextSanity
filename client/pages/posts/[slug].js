@@ -1,7 +1,7 @@
 import ImageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
 import { useEffect, useState } from "react";
-import Toolbar from "../../components/toolbar";
+import Toolbar from "../../components/Toolbar";
 
 function Post({ title, body, image }) {
   const [imageURL, setImageURL] = useState("");

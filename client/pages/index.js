@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Toolbar from "../components/toolbar";
+import Toolbar from "../components/Toolbar";
 import ImageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
 import { useEffect, useState } from "react";
