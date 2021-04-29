@@ -3,6 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Purpose
 
 Use sanity io to build blog
+
 Built server with sanity io and front end with nextjs and tailwind.
 
 ## Installed Dependencies
